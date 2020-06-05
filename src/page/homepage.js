@@ -26,16 +26,53 @@ class Home extends Component {
 			showList: !prevState.showList,
 		}));
 	};
+	scrollHandler = () => {
+		if (!this.state.showShop) {
+			document.documentElement.style.position = "fixed";
+			document.body.style.overflow = "hidden";
+		} else {
+			document.documentElement.style.position = "static";
+			document.body.style.overflow = "";
+		}
+	};
+	scrollListHandler = () => {
+		if (!this.state.showList) {
+			document.documentElement.style.position = "fixed";
+			document.body.style.overflow = "hidden";
+		} else {
+			document.documentElement.style.position = "static";
+			document.body.style.overflow = "";
+		}
+	};
 
 	render() {
 		return (
 			<div className="container">
 				<div className="header">
-					<button className="shop-btn" onClick={this.shopHandler}>
+					<button
+						className="shop-btn"
+						onClick={(event) => {
+							this.shopHandler();
+							this.scrollHandler();
+						}}
+					>
 						商城
 					</button>
 				</div>
-				<Modal show={this.state.showShop} className="shop">
+				<Modal
+					show={this.state.showShop}
+					className="shop"
+					btn={
+						<button
+							onClick={(event) => {
+								this.shopHandler();
+								this.scrollHandler();
+							}}
+						>
+							关闭
+						</button>
+					}
+				>
 					<TabBar />
 				</Modal>
 				<div className="timeList">
@@ -64,7 +101,13 @@ class Home extends Component {
 					</ul>
 				</div>
 				<div className="footer">
-					<button onClick={this.listHandler} className="footer-btn">
+					<button
+						onClick={(event) => {
+							this.listHandler();
+							this.scrollListHandler();
+						}}
+						className="footer-btn"
+					>
 						人气榜
 					</button>
 					<button className="footer-btn">人气工会</button>
@@ -73,7 +116,16 @@ class Home extends Component {
 				<Modal
 					show={this.state.showList}
 					className="list"
-					btn={<button onClick={this.listHandler}>关闭</button>}
+					btn={
+						<button
+							onClick={(event) => {
+								this.listHandler();
+								this.scrollListHandler();
+							}}
+						>
+							关闭
+						</button>
+					}
 				>
 					<div className="popList-list">
 						<PopList />
