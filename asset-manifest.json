@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mega-web-test/static/css/main.19bc82f1.chunk.css",
+    "main.js": "/mega-web-test/static/js/main.a83b5daf.chunk.js",
+    "main.js.map": "/mega-web-test/static/js/main.a83b5daf.chunk.js.map",
+    "runtime-main.js": "/mega-web-test/static/js/runtime-main.1119d68b.js",
+    "runtime-main.js.map": "/mega-web-test/static/js/runtime-main.1119d68b.js.map",
+    "static/css/2.729fb9b6.chunk.css": "/mega-web-test/static/css/2.729fb9b6.chunk.css",
+    "static/js/2.282910aa.chunk.js": "/mega-web-test/static/js/2.282910aa.chunk.js",
+    "static/js/2.282910aa.chunk.js.map": "/mega-web-test/static/js/2.282910aa.chunk.js.map",
+    "index.html": "/mega-web-test/index.html",
+    "precache-manifest.f3468405fd1ec692278dc4ad179a5659.js": "/mega-web-test/precache-manifest.f3468405fd1ec692278dc4ad179a5659.js",
+    "service-worker.js": "/mega-web-test/service-worker.js",
+    "static/css/2.729fb9b6.chunk.css.map": "/mega-web-test/static/css/2.729fb9b6.chunk.css.map",
+    "static/css/main.19bc82f1.chunk.css.map": "/mega-web-test/static/css/main.19bc82f1.chunk.css.map",
+    "static/js/2.282910aa.chunk.js.LICENSE.txt": "/mega-web-test/static/js/2.282910aa.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1119d68b.js",
+    "static/css/2.729fb9b6.chunk.css",
+    "static/js/2.282910aa.chunk.js",
+    "static/css/main.19bc82f1.chunk.css",
+    "static/js/main.a83b5daf.chunk.js"
+  ]
+}
