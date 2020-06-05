@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51ea5176e7d22727805649a3151c5cc3",
+    "revision": "c23eb13515243b4b52c92f7f0abcd36b",
     "url": "/mega-web-test/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mega-web-test/static/css/2.729fb9b6.chunk.css"
   },
   {
-    "revision": "3f3bfa9e66f171917421",
-    "url": "/mega-web-test/static/css/main.94722649.chunk.css"
+    "revision": "20a157176acebf4ea7c4",
+    "url": "/mega-web-test/static/css/main.19bc82f1.chunk.css"
   },
   {
     "revision": "0ba75c4517bc9e0bf9dd",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mega-web-test/static/js/2.282910aa.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "3f3bfa9e66f171917421",
-    "url": "/mega-web-test/static/js/main.17a0a000.chunk.js"
+    "revision": "20a157176acebf4ea7c4",
+    "url": "/mega-web-test/static/js/main.a83b5daf.chunk.js"
   },
   {
     "revision": "faa2dc732352d7bf83e4",
